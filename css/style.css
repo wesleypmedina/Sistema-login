@@ -1,3 +1,37 @@
+html,
+body {
+  padding: 0;
+  margin: 0; }
 
+.container {
+  margin: 0 10%; }
+  .container .describe {
+    width: 70%;
+    z-index: 2;
+    height: 100vh;
+    background: rgba(45, 129, 228, 0.5);
+    float: left;
+    border-radius: 0 0 100% 0;
+    box-shadow: inset -5px 0px 10px rgba(45, 129, 228, 0.8); }
+    .container .describe h1 {
+      color: #fff;
+      font-weight: bold;
+      position: relative;
+      font-size: 40pt;
+      top: 35%;
+      left: 15%;
+      text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3); }
+  .container .form {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background-color: #1a211e;
+    box-shadow: inset -3px 0 110px #000; }
+    .container .form form {
+      position: relative;
+      top: 55%; }
+      .container .form form table input {
+        width: 200px;
+        height: 20px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+@import "reset/reset.scss";
+$bg-h1 : rgb(45, 129, 228);
+
+.container{
+  margin: 0 10%;
+    .describe{
+      width: 70%;
+      z-index: 2;
+      height: 100vh;
+      background: rgba($bg-h1,0.5);
+      float: left;
+      border-radius: 0 0 100% 0;
+      box-shadow: inset -5px 0px 10px rgba($bg-h1,0.8);
+        h1{
+          color: #fff;
+          font-weight: bold;
+          position: relative;
+          font-size: 40pt;
+          top: 35%;
+          left:15%;
+          text-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+        }
+    }
+    .form{
+      width: 100%;
+      z-index: 1;
+      height: 100vh;
+      background-color: rgb(26, 33, 30);
+      box-shadow: inset -3px 0 110px #000;
+        form{
+          position: relative;
+          top: 55%;
+            table input{
+              width: 200px;
+              height: 20px;
+            }
+        }
+    }
+}
